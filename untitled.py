@@ -1,10 +1,7 @@
 #!/usr/bin/python
 from random import randint
 
-board = []
-
-for i in range(5):
-	board.append(['O'] * 5)
+board = [['0'] * 5] * 5
 
 def print_board(board):
 	for row in board:
